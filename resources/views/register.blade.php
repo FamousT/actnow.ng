@@ -14,7 +14,7 @@
                     <!-- <p class="text-left" style="color: red;">All fields are required</p> -->
                 </div>
 
-      AA          <div class="register">
+                <div class="register">
                 @if(Session::has('success'))
                   <div class="alert alert-success">
                       {{ Session::get('success') }}

@@ -22,7 +22,7 @@
         </div>
         <div class="signup-form">
           <div class="title">Join Actnow</div>
-          <form action="/profile" method="post">
+          <form action="{{url('/profile')}}" method="post">
 
             @csrf
             <div class="input-boxes">
@@ -97,12 +97,13 @@
           <hr/><br/>
 
           <div class="image">
-            <span class="details">Upload Profile Pictures</span>
+            <span class="details">Upload Profile Picture</span>
             <div class="upload">
-            <input name="image" type="file" id="image">    
+            <input name="image" type="file" id="image" class="form-group">    
             </div>
+          </div>
               <div class="button form-group">
-                <input type="submit" value="Join">
+                <input type="submit" value="Submit">
               </div>
       </form>
     </div>

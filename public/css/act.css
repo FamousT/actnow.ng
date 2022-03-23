@@ -81,7 +81,7 @@ body {
       .ftco-navbar-light {
         background: transparent !important;
         position: absolute;
-        top: 0px;
+        top: 15px;
         left: 0;
         right: 0;
         z-index: 3; }

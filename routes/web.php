@@ -47,10 +47,10 @@ Route::get('profile/list', [ProfileController::class, 'index'])->name('profile.i
 Route::get('/downloadPDF/{id}',[ProfileController::class, 'downloadPDF']);
 
 
-// Route::get('disneyplus', [DisneyplusController::class, 'create'])->name('disneyplus.create');
-// Route::post('disneyplus', [DisneyplusController::class, 'store'])->name('profile.store');
-// Route::get('disneyplus/list', [DisneyplusController::class, 'index'])->name('disneyplus.index');
-// Route::get('/downloadPDF/{id}',[DisneyplusController::class, 'downloadPDF']);
+Route::get('disneyplus', [DisneyplusController::class, 'create'])->name('disneyplus.create');
+Route::post('disneyplus', [DisneyplusController::class, 'store'])->name('profile.store');
+Route::get('disneyplus/list', [DisneyplusController::class, 'index'])->name('disneyplus.index');
+Route::get('/downloadPDF/{id}',[DisneyplusController::class, 'downloadPDF']);
 
 
 

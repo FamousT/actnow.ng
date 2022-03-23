@@ -26,18 +26,18 @@
 
     <link rel="stylesheet" href="css/style2.css">
 
-    <title>Cerebralhub</title>
+    <title>Actnow</title>
 	
 	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
-    <link rel="icon" type="image/png" href="images/actLow.png">
+    <link rel="icon" type="image/png" href="images/actLogo.png">
     <style type="text/css">
     </style>
 </head>
   <body>
  
 
-	  <nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	  <nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-light ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
       <div class="menu">
         <a class="navbar-brand" href="/"><img src="images/actnow22.png"/></a>
@@ -46,7 +46,7 @@
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav" style="padding-top: 20px;">
+	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	         <!-- <li class="nav-item active"><a href="index.html" class="nav-link hvr-underline-from-left">Home</a></li> -->
 	          
@@ -64,7 +64,7 @@
 <!-- Full Page Image Header with Vertically Centered Content -->
 <header class="masthead" style="height: 100vh;
 min-height: 500px;
-background-image: url('images/poster2.jpg');
+background-image: url('images/prof.jpg');
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -83,18 +83,7 @@ font-size:60px"
    
 
 
-    <div class="footer2">
-        <div class="container-fluid">
-        <div class="row" style="padding-top: 30px;">
-          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-              <!-- <p style="font-size:16px;">Cerebralhub</a> -- We let your ideas fit your corner of the world, but matter globally</p> -->
-
-            <p class="h6">&copy All rights Reserved  | <a class="text-green ml-2"target="_blank">Actow</a></p>
-          </div>
-          </hr>
-        </div>	
-      </div>      
-</div>
+    
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
