@@ -1,125 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Act Now</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> 
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link href="css/hover-min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="css/footer.css">
+
+    
+    <link rel="stylesheet" href="css/act.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <link rel="stylesheet" href="css/style2.css">
+
+    <title>Cerebralhub</title>
 	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
-<!--===============================================================================================-->	
-	<!-- <link rel="icon" type="image/png" href="images/perfitfav.png"/> -->
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-
-<!--===============================================================================================-->
-
+    <link rel="icon" type="image/png" href="images/actLow.png">
+    <style type="text/css">
+    </style>
 </head>
-<body>
-	
-	<!--  -->
-	<!-- <div class="simpleslide100"> -->
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/actnow.jpg');">
-			
+  <body>
+ 
 
-		</div>
-		<!-- <div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div> -->
-	<!-- </div> -->
+	  <nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+      <div class="menu">
+        <a class="navbar-brand" href="/"><img src="images/actnow22.png"/></a>
+      </div>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
 
-	<div class="size1 overlay1">
-		<!--  -->
-		<div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-			<!-- <img src="images/perfit.png" alt="perfitstyling"> -->
-		
+	      <div class="collapse navbar-collapse" id="ftco-nav" style="padding-top: 20px;">
+	        <ul class="navbar-nav ml-auto">
+	         <!-- <li class="nav-item active"><a href="index.html" class="nav-link hvr-underline-from-left">Home</a></li> -->
+	          
+	          <li class="nav-item cta"><a href="/profile" class="nav-link hvr-grow"><span>Join Actnow</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
 
-		<div class="script">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<!-- <P class="text-center" style="color: antiquewhite;">Man of the People</P> -->
-						
-						<div class="txt-center">
-							<img src="images/actLogo2.png" alt="Snow" style="width:30%;">
-							<p style="font-size: 14px;">Create your future today</p>
-						</div><br/><br/>
+    
+    
 
 
-						<div class="txt-center" style="padding-bottom: 100px;">
-							<a href="/profile" class="btn btn-warning btn-lg active" role="button" aria-pressed="true" style="font-weight: 600; color:white;">CLICK TO IDENTIFY</a>
-
-						  </div>
-
-
-
-					</div>
-				</div>
-
-				<div class="footer text-center" >
-					<!-- 2021 | BuhariLegacyProject  -->
-				</div>
-			</div>
-		</div>
-
-		
-		
-
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead" style="height: 100vh;
+min-height: 500px;
+background-image: url('images/poster2.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+font-size:60px"
+>
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        
+      </div>
+    </div>
+  </div>
+</header>
 
 
-			
-		</div>
-	</div>
+   
 
 
+    <div class="footer2">
+        <div class="container-fluid">
+        <div class="row" style="padding-top: 30px;">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+              <!-- <p style="font-size:16px;">Cerebralhub</a> -- We let your ideas fit your corner of the world, but matter globally</p> -->
 
-	
+            <p class="h6">&copy All rights Reserved  | <a class="text-green ml-2"target="_blank">Actow</a></p>
+          </div>
+          </hr>
+        </div>	
+      </div>      
+</div>
 
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+	offset:300,
+	duration:1000
+	});
+  </script>
 </body>
 </html>

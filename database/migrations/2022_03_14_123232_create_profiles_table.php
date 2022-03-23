@@ -22,7 +22,7 @@ class CreateProfilesTable extends Migration
             $table->string('phone_no');
             $table->string('email');
             $table->string('reg_no');
-            $table->string('profile_image');
+            $table->string('image');
             $table->timestamps();
         });
     }
