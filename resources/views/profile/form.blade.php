@@ -22,8 +22,7 @@
         </div>
         <div class="signup-form">
           <div class="title">Join Actnow</div>
-          <form action="{{url('/profile')}}" method="post">
-
+          <form method="post" action="/profile" enctype="multipart/form-data">
             @csrf
             <div class="input-boxes">
               <div class="form-group">
@@ -97,13 +96,14 @@
           <hr/><br/>
 
           <div class="image">
-            <span class="details">Upload Profile Picture</span>
+            <span class="details">Upload Profile Pictures</span><br/><br/>
             <div class="upload">
-            <input name="image" type="file" id="image" class="form-group">    
+            <input name="image" type="file" required>    
             </div>
           </div>
+          
               <div class="button form-group">
-                <input type="submit" value="Submit">
+                <input type="submit" value="Join">
               </div>
       </form>
     </div>

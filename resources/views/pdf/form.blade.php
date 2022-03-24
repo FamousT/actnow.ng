@@ -20,6 +20,8 @@
         </ul>
       </div><br />
     @endif
+    <form action="{{url('/disneyplus')}}" method="post">
+
           <div class="form-group">
               @csrf
               <label for="name">Name:</label>

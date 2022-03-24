@@ -31,7 +31,7 @@ class DisneyplusController extends Controller
             $file = $request->file('image');
             $extention = $file->getClientOriginalExtension();
             $filename = time().'.'.$extention;
-            $file->move('uploads/profiles/', $filename);
+            $file->move('uploads/profiles/',$filename);
             $profile->image = $filename;
         }
 

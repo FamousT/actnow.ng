@@ -25,14 +25,11 @@ class ProfileController extends Controller
         $profile->reg_no = random_int(10000000, 99999999);
 
 
-        if($request->hasfile('image'))
-        {
-
-            $file = $request->file('image');
-            $extention = $file->getClientOriginalExtension();
-            $filename = time().'.'.$extention;
-            $file->move('uploads/profiles/', $filename);
-            $profile->image = $filename;
+        if($request->file('image')){
+            $file= $request->file('image');
+            $filename= date('YmdHi').$file->getClientOriginalName();
+            $file-> move(public_path('uploads/profiles'), $filename);
+            $profile['image']= $filename;
         }
 
         $profile->save();        

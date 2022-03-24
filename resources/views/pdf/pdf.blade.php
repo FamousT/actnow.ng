@@ -17,7 +17,7 @@ border-radius:20px; padding-top: 30px; color:#5D3954">
 
       <!-- <img src="{{ url('/images/image.png') }}"> -->
 
-      <img src="{{ url('uploads/profiles/'.$show->image) }}" width="100px" height="100px" alt="Actnow"><br/>
+      <img src="{{ public_path('/uploads/profiles/'.$show->image) }}" width="100px" height="100px" alt="Actnow"><br/>
       
       </div>
 

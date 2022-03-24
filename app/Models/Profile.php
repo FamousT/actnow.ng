@@ -16,6 +16,6 @@ class Profile extends Model
         'phone_no',
         'email',
         'reg_no',
-        'image'
+        'image',
     ];
 }

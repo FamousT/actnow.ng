@@ -5,16 +5,16 @@
              
 @foreach($shows as $show)
 
-    <div class="mx-auto mt-5" style="width: 400px; text-align:center; 
-    border-radius:20px; padding-top: 30px; color:#5D3954; border-style:solid; border-width:10px;">
+    <div class="mx-auto mt-5" style="width: 350px; text-align:center; 
+    border-radius:20px; padding-top: 80px; color:#5D3954; border-style:solid; border-width:10px;">
 
         <div class="image">    
-            <img src="images/actnow22.png" style="width:100px;"><br/>
+            <img src="{{ url('/images/actnow22.png') }}" style="width:100px;"><br/><br/>
         </div>
         <div class="card-body">
           <p class="card-text">
 
-          <img src="{{ url('uploads/profiles/'.$show->image) }}" alt="Actnow" style="width:120px; height:120px; border-radius:50%"><br/><br/>
+          <img src="{{ url('/uploads/profiles/'.$show->image) }}" alt="Actnow" style="width:200px; height:200px; border-radius:50%"><br/><br/>
 
           <p style="font-size:30px; font-weight: 700;">{{$show->name}}</p>
           <h6 style="font-size:20px;">{{$show->gender}}</h6>
