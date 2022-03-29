@@ -64,7 +64,7 @@
 <!-- Full Page Image Header with Vertically Centered Content -->
 <header class="masthead" style="height: 100vh;
 min-height: 500px;
-background-image: url('images/prof.jpg');
+background-image: url('images/act.jpg');
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
